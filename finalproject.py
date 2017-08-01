@@ -11,6 +11,7 @@ setup(1000,600)
 x_pos = -500
 y_pos = -300
 
+
 start_pos = (0, -250)
 
 ### Write your code below:
