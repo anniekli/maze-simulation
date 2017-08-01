@@ -11,11 +11,6 @@ setup(1000,600)
 x_pos = -500
 y_pos = -300
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 8900b8852281d9f9cadc3606626532855967cedf
-
 start_pos = (0, -250)
 
 ### Write your code below:
