@@ -3,27 +3,18 @@
 from turtle import *
 import math
 
-# Name your Turtle.
-robot = Turtle()
+# # Name your Turtle.
 
-# Set Up your screen and starting position.
+# # Set Up your screen and starting position.
 setup(1000,600)
-x_pos = 0
-y_pos = -250
+x_pos = 30
+y_pos = -200
 
-start_pos = (x_pos, y_pos)
 
-### Write your code below:
+##############################################################
 
-robot.penup()
-robot.goto(start_pos)
-mainloop()
+draw = Turtle()
 
-##############################################################3
-
-userTurtle = turtle.Turtle()
-draw = turtle.Turtle()
-scr = turtle.Screen()
 
 def drawMaze():
     draw.pencolor("gold")
@@ -110,46 +101,49 @@ def drawMaze():
     draw.fd(120)
     draw.ht()
 
-    userTurtle.penup()
-    userTurtle.goto(-30,180)
-    userTurtle.setheading(-90)
-
-start_pos = (0, -250)
-
-
-def mazeGame():
-    scr.bgcolor("#0070ff")
-
-def m1():
-    userTurtle.setheading(90)
-    userTurtle.fd(30)
-    userTurtle.pos()
-    print(userTurtle.pos())
-
-def m2():
-    userTurtle.setheading(180)
-    userTurtle.fd(30)
-    userTurtle.pos()
-    print(userTurtle.pos())
-
-def m3():
-    userTurtle.setheading(360)
-    userTurtle.fd(30)
-    userTurtle.pos()
-    print(userTurtle.pos())
-
-def m4():
-    userTurtle.setheading(-90)
-    userTurtle.fd(30)
-    userTurtle.pos()
-    print(userTurtle.pos())
-
-scr.onkeypress(m1, "Up")
-scr.onkeypress(m2, "Left")
-scr.onkeypress(m3, "Right")
-scr.onkeypress(m4, "Down")
-
-scr.listen()
 
 drawMaze()
-mazeGame()
+
+
+robot = Turtle()
+start_pos = (x_pos, y_pos)
+
+### Write your code below:
+
+robot.penup()
+robot.goto(start_pos)
+robot.setheading(90)
+
+   ##### Move the robot now!
+
+while 0 < 1:
+    if 
+
+robot.fd()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mainloop()
