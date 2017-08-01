@@ -11,7 +11,7 @@ setup(500,300)
 x_pos = -250
 y_pos = -150
 
-z_pos = 0;
+
 
 
 ### Write your code below:
