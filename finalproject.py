@@ -14,7 +14,6 @@ x_pos = 40
 y_pos = -250
 bgpic('maze.gif')
 
-start_pos = (x_pos, y_pos)
 
 ### Write your code below:
 
