@@ -105,9 +105,9 @@ def drawMaze():
     userTurtle.penup()
     userTurtle.goto(-30,180)
     userTurtle.setheading(-90)
-=======
+
 start_pos = (0, -250)
->>>>>>> 1c26b30f78e6ff98e8392dbd62ff7c07d44625de
+
 
 def mazeGame():
     scr.bgcolor("#0070ff")
