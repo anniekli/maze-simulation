@@ -23,6 +23,7 @@ robot.penup()
 robot.goto(start_pos)
 robot.setheading(90)
 
+<<<<<<< HEAD
 
 
 #Import image
@@ -30,10 +31,18 @@ my_image = Image.open("maze.gif")
 pix = my_image.load()
 
 
+=======
+# Import image.
+maze = Image.open("maze.gif")
+pix = maze.convert("RGB").getpixel((540, 550))
+print(pix)
+mainloop()
+>>>>>>> 572085ddd73f40dd6fb2e05917e15b8678b77d30
 ##############################################################
 
 
    ##### Move the robot now!
+<<<<<<< HEAD
 robot.forward(90)
 robot.left(90)
 robot.forward(90)
@@ -52,3 +61,5 @@ robot.left(90)
 
 
 mainloop()
+=======
+>>>>>>> 572085ddd73f40dd6fb2e05917e15b8678b77d30
