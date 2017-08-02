@@ -1,6 +1,7 @@
 #This is our final project: S.A.M.S.A.L.
 
 from turtle import *
+from PIL import Image
 import math
 
 
