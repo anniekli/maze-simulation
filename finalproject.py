@@ -36,31 +36,7 @@ pix = my_image.load()
 maze = Image.open("maze.gif")
 pix = maze.convert("RGB").getpixel((540, 550))
 print(pix)
-mainloop()
->>>>>>> 572085ddd73f40dd6fb2e05917e15b8678b77d30
 ##############################################################
 
 
-   ##### Move the robot now!
-<<<<<<< HEAD
-robot.forward(90)
-robot.left(90)
-robot.forward(90)
-robot.right(90)
-robot.forward(50)
-robot.left(90)
-robot.forward(125)
-robot.right(90)
-robot.forward(120)
-robot.right(90)
-robot.forward(65)
-robot.left(90)
-
-
-
-
-
-mainloop()
-=======
->>>>>>> 572085ddd73f40dd6fb2e05917e15b8678b77d30
  
