@@ -1,6 +1,7 @@
 #This is our final project: S.A.M.S.A.L.
 
 from turtle import *
+from PIL import Image
 import math
 
 
@@ -12,6 +13,7 @@ robot = Turtle()
 setup(1000,600)
 x_pos = 40
 y_pos = -250
+start_pos = (x_pos, y_pos)
 bgpic('maze.gif')
 
 
@@ -21,7 +23,10 @@ robot.penup()
 robot.goto(start_pos)
 robot.setheading(90)
 
-
+# Import image.
+maze = Image.open("maze.gif")
+pix = maze.convert("RGB").getpixel((540, 550))
+print(pix)
 mainloop()
 ##############################################################
 
