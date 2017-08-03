@@ -27,14 +27,14 @@ robot.penup()
 robot.goto(start_pos)
 robot.setheading(90)
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 # Import image.
 maze = Image.open("maze.gif")
 pix = maze.convert("RGB").getpixel((540, 550))
 print(pix)
 ##############################################################
 
-=======
+#=======
 
 
 
@@ -62,7 +62,7 @@ while pixel == (255, 255, 255):
     x = robot.xcor()
     y = robot.ycor()
     print("turtle coordinates: " + str(x) + ", " + str(y))
-   
+
    #Converting turtle coordinates to pillow
     x += (width / 2)
     if y <= 0:
@@ -72,8 +72,8 @@ while pixel == (255, 255, 255):
     print("Pillow coordinates: " + str(x) + ", " + str(y))
     pixel = maze.convert("RGB").getpixel((x, y))
     print(pixel)
-
-
-
->>>>>>> bd0d4e0b199e9d1b9d42c944f3d63bcde6eb1865
+robot.left(90)
+robot.forward(75)
+robot.right(90)
+#>>>>>>> bd0d4e0b199e9d1b9d42c944f3d63bcde6eb1865
 mainloop()
