@@ -1,3 +1,7 @@
+// This is our final project
+// Code name: S. A. M.
+
+
 #include <Servo.h>
   Servo servoLeft;
   Servo servoRight;
